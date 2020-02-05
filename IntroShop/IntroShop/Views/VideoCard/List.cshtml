@@ -1,0 +1,28 @@
+﻿
+@{<section class="listings">
+        <div class="wrapper">
+            <ul class="properties_list">
+                @{
+                    foreach (var item in Model.allVideoCards)
+                    {
+                        <li>
+                            <a href="#">
+                                <img src="@item.img" alt="@item.name" title="" class="property_img" />
+                            </a>
+                            <span class="price">$@item.price</span>
+                            <div class="property_details">
+                                <h1>
+                                    <a href="#">@item.name</a>
+                                </h1>
+                                <h2>@item.description <span class="property_size">(288ftsq)</span></h2>
+                            </div>
+                        </li>
+                    }
+                }
+            </ul>
+            <div class="more_listing">
+                <a href="#" class="more_listing_btn">View More Listings</a>
+            </div>
+        </div>
+    </section>
+}
