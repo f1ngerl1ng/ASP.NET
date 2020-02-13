@@ -1,0 +1,34 @@
+﻿@model List<BlogModel>
+@{
+    ViewData["Title"] = "Blog";
+}
+
+<div class="sub-title">
+    <h2>My Blog</h2>
+    <a href="contact.html"><i class="icon-envelope"></i></a>
+</div>
+
+
+<div class="col-md-12 content-page">
+
+    @foreach (var item in Model)
+    {
+        <!-- Blog Post Start -->
+    <div class="col-md-12 blog-post">
+        <div class="post-title">
+            <a asp-controller="Blog" asp-action="Post" asp-route-id="@item.id"><h1>@item.title</h1></a>
+        </div>
+        <div class="post-info">
+            <span>November 23, 2016 / by <a href="#" target="_blank">@item.author</a></span>
+        </div>
+        <div class="post-image">
+            <img src="~/img/blog/@item.img" alt="">
+        </div>
+        <p> @item.preview</p>
+        <a asp-controller="Blog" asp-action="Post" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
+        <a asp-controller="Blog" asp-action="Edit" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Edit</span></a>
+        <a asp-controller="Blog" asp-action="Post" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Delete</span></a>
+    </div>
+        <!-- Blog Post End -->
+    }
+</div>
