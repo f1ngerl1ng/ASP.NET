@@ -44,7 +44,7 @@ namespace PersonalBlog.Controllers
                 string uniqFileName = null;
                 if (model.img != null)
                 {
-                    string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "img");
+                    string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "img/blog");
                     uniqFileName = Guid.NewGuid().ToString() + "_" + model.img.FileName;
                     string filePath = Path.Combine(uploadsFolder, uniqFileName);
                     model.img.CopyTo(new FileStream(filePath, FileMode.Create));

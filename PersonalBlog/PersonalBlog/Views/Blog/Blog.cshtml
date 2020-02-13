@@ -27,7 +27,7 @@
         <p> @item.preview</p>
         <a asp-controller="Blog" asp-action="Post" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
         <a asp-controller="Blog" asp-action="Edit" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Edit</span></a>
-        <a asp-controller="Blog" asp-action="Post" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Delete</span></a>
+        <a asp-controller="Blog" asp-action="Delete" asp-route-id="@item.id" class="button button-style button-anim fa fa-long-arrow-right"><span>Delete</span></a>
     </div>
         <!-- Blog Post End -->
     }

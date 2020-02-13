@@ -32,13 +32,27 @@ namespace PersonalBlog.Controllers
 
         public IActionResult Blog()
         {
-            var posts = _postRepository.GetAllPosts().ToList(); ;
+            var posts = _postRepository.GetAllPosts().Reverse().ToList(); ;
+            
             return View(posts);
         }
         [HttpPost]
         public ViewResult Edit()
         {
             return View();
+        }
+
+        public IActionResult Delete(int id)
+        {
+
+            
+               
+
+                return View();
+           
+            
+
+            
         }
     }
 }
