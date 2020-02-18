@@ -1,0 +1,68 @@
+2020-02-18 09:39:56.8171|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 09:40:25.0427|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 09:40:25.0491|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 09:40:25.0491|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 09:40:25.0491|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 09:40:25.0491|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 09:40:25.0707|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 09:47:05.0067|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 09:54:46.0558|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 10:00:32.1731|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 10:00:57.1540|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:00:57.1650|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:00:57.1734|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:00:57.2002|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:00:57.2126|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:00:57.2335|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:01:56.2925|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:01:56.2953|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:01:56.2953|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:01:56.2953|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:01:56.2953|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:01:56.2953|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:06:54.4352|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 10:08:07.9978|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:08:08.0154|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:08:08.0154|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:08:08.0460|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:08:08.0654|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:08:08.0654|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:08:28.7784|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:08:28.7974|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:08:28.7974|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:08:28.7974|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:08:28.7974|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:08:28.8117|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:08:57.5008|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:08:57.5008|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:08:57.5008|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:08:57.5008|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:08:57.5151|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:08:57.5151|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:10:51.2226|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 10:11:08.0448|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:11:08.0448|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:11:08.0448|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:11:08.0448|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:11:08.0613|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:11:08.0613|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:11:39.1971|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:11:39.1971|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:11:39.2029|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:11:39.2029|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:11:39.2029|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:11:39.2029|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:14:44.3446|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-18 10:15:31.6350|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:15:31.6503|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:15:31.6594|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:15:31.6594|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:15:31.6766|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:15:31.6766|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:16:07.2721|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-18 10:16:07.2721|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-18 10:16:07.2721|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-18 10:16:07.2832|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-18 10:16:07.2832|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-18 10:16:07.2832|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-18 10:20:55.5468|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.

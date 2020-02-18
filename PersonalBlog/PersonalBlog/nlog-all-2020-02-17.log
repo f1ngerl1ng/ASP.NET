@@ -1,0 +1,62 @@
+2020-02-17 11:14:01.2640|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-17 11:14:58.7050|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-17 11:16:42.0649|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-17 11:17:29.0578|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:17:29.0837|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:17:29.1961|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:17:29.2091|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:17:29.2091|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:17:29.2231|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:17:33.1931|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:17:33.1931|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:17:33.1931|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:17:33.2212|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:17:33.2212|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:17:33.2212|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:17:33.2634|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'PostNotFound' was not found. Searched locations: /Views/Blog/PostNotFound.cshtml, /Views/Shared/PostNotFound.cshtml, /Pages/Shared/PostNotFound.cshtml
+2020-02-17 11:17:33.4744|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2020-02-17 11:19:27.1702|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:19:27.2199|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:19:27.2490|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:19:27.2787|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:19:27.2867|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:19:27.2867|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:21:52.5340|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2020-02-17 11:21:52.7672|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:21:52.7672|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:21:52.7672|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:21:52.7672|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:21:52.7672|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:21:52.7798|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:22:16.7889|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:22:16.8008|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:22:16.8166|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:22:16.8166|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:22:16.8166|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:22:16.8272|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:22:53.3341|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:22:53.3341|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:22:53.3532|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:22:53.3608|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:22:53.3608|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:22:53.3608|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:23:01.7561|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:23:01.7561|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:23:01.7561|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:23:01.7770|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:23:01.7818|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:23:01.7818|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:23:12.2966|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:23:12.2966|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:23:12.2966|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:23:12.3123|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:23:12.3123|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:23:12.3123|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:23:59.0528|TRACE|PersonalBlog.Controllers.BlogController|Trace Log
+2020-02-17 11:23:59.0528|DEBUG|PersonalBlog.Controllers.BlogController|Debug Log
+2020-02-17 11:23:59.0753|INFO|PersonalBlog.Controllers.BlogController|Information Log
+2020-02-17 11:23:59.1375|WARN|PersonalBlog.Controllers.BlogController|Warning Log
+2020-02-17 11:23:59.1452|ERROR|PersonalBlog.Controllers.BlogController|Error Log
+2020-02-17 11:23:59.1452|FATAL|PersonalBlog.Controllers.BlogController|Critical Log
+2020-02-17 11:23:59.1615|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'PostNotFound' was not found. Searched locations: /Views/Blog/PostNotFound.cshtml, /Views/Shared/PostNotFound.cshtml, /Pages/Shared/PostNotFound.cshtml
+2020-02-17 11:23:59.2227|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
