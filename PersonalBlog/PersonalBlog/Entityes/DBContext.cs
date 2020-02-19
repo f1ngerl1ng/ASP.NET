@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PersonalBlog.Models;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PersonalBlog.Entityes
 {
-    public class DBContext : DbContext
+    public class DBContext : IdentityDbContext
     {
         public DBContext(DbContextOptions<DBContext> options) : base(options)
         {

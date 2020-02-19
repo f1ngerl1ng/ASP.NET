@@ -317,9 +317,16 @@ button {
 }
 
 
+.my-detail li a {
+    color: #fafafa;
+}
+.my-detail li a:hover {
+    font-size: 15px;
+    color: #000000;
+}
 
-/* About Me (Left Sidebar) */	
 
+/* About Me (Left Sidebar) */
 .about-fixed {
     position: fixed;
     width: 20.8%;

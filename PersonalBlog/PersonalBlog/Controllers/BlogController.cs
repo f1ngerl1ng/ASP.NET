@@ -49,7 +49,7 @@ namespace PersonalBlog.Controllers
 
             return View(post);
         }
-
+        
         public IActionResult Blog()
         {
             var posts = _postRepository.GetAllPosts().Reverse().ToList(); ;
