@@ -1,0 +1,11 @@
+﻿@model int
+@{
+    ViewData["Title"] = "NotFound";
+}
+
+<div class="alert alert-danger mt-1 mb-1" >
+    <div>404 Not Found</div>
+    <h3>Post @Model not found</h3>
+</div>
+<a asp-action="Blog" asp-controller="Blog">Post list</a> 
+

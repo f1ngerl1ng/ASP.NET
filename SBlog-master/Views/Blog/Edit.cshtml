@@ -1,0 +1,53 @@
+﻿@model MVC_Intro.ViewModel.PostEditViewModel
+@{
+    ViewData["Title"] = "Edit new post";
+}
+
+<h1>CreatePost</h1>
+<form enctype="multipart/form-data" asp-controller="Blog" asp-action="edit" method="post" class="mt-3">
+    <input hidden asp-for="Id" />
+    <input hidden asp-for="ExistImgPath" />
+    <div class="form-group row">
+        <label asp-for="author" class="col-sm-2 col-form-label">Author</label>
+        <div class="col-sm-10">
+            <input asp-for="author" class="form-control" placeholder="Author" />
+            <span asp-validation-for="author" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="title" class="col-sm-2 col-form-label">Title</label>
+        <div class="col-sm-10">
+            <input asp-for="title" class="form-control" placeholder="Title" />
+            <span asp-validation-for="title" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="preview" class="col-sm-2 col-form-label">Preview</label>
+        <div class="col-sm-10">
+            <textarea asp-for="preview" class="form-control" placeholder="Preview"></textarea>
+            <span asp-validation-for="preview" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="fullPost" class="col-sm-2 col-form-label">Full Post</label>
+        <div class="col-sm-10">
+            <textarea asp-for="fullPost" class="form-control" placeholder="Full text"></textarea>
+            <span asp-validation-for="fullPost" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="img" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <div class="custom-file">
+                <input asp-for="img" class="form-control custom-file-input">
+                <label class="custom-file-label">Click to change photo</label>
+            </div>
+        </div>
+    </div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group row">
+        <button type="submit" class="btn btn-info">Update</button>
+        <a asp-controller="Blog" asp-action="Blog" class="btn btn-info">Cancel</a>
+    </div>
+</form>
+

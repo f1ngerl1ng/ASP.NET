@@ -4,12 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-
 using Microsoft.AspNetCore.Mvc;
-using PersonalBlog.Models;
-using PersonalBlog.ViewModel;
+using MVC_Intro.Models;
+using MVC_Intro.ViewModel;
 
-namespace PersonalBlog.Controllers
+namespace MVC_Intro.Controllers
 {
     public class AccountController : Controller
     {
@@ -19,12 +18,9 @@ namespace PersonalBlog.Controllers
         public AccountController(UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager)
         {
-            this.signInManager = signInManager;
             this.userManager = userManager;
-        }
-        public ActionResult Index()
-        {
-            return View();
+            this.signInManager = signInManager;
+
         }
 
         [HttpGet]
@@ -33,7 +29,6 @@ namespace PersonalBlog.Controllers
         {
             return View();
         }
-        
 
         [HttpPost]
         [AllowAnonymous]
@@ -41,10 +36,12 @@ namespace PersonalBlog.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new AppUser { UserName = model.Email, Email = model.Email };
+                var user = new AppUser {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    City = model.City
+                };
                 var result = await userManager.CreateAsync(user, model.Password);
-
-
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
@@ -56,9 +53,9 @@ namespace PersonalBlog.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
             }
-
             return View(model);
         }
+
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
@@ -72,7 +69,6 @@ namespace PersonalBlog.Controllers
         {
             return View();
         }
-
         [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
@@ -86,14 +82,13 @@ namespace PersonalBlog.Controllers
                 {
                     if (!string.IsNullOrEmpty(returnUrl))
                     {
-                        return Redirect(returnUrl);
+                        return LocalRedirect(returnUrl);
                     }
                     else
                     {
-                        return RedirectToRoute("default", new { controller = "Blog", action = "Blog" });
-                        // return RedirectToAction("Blog", "Blog");
+                        return RedirectToAction("Blog", "Blog");
                     }
-
+                  
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid Login Attempt");

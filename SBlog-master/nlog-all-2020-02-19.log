@@ -1,0 +1,18 @@
+2020-02-19 00:02:03.7606|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 147df2d3-fbff-4d47-83e6-1e02fb12028e.
+2020-02-19 00:02:03.8825|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 147df2d3-fbff-4d47-83e6-1e02fb12028e failed to provide the correct password.
+2020-02-19 00:02:12.4181|WARN|Microsoft.AspNetCore.Identity.UserManager|User 58f63405-464c-4c61-a1d3-d6ea3d8ca284 password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2020-02-19 00:02:32.2004|WARN|Microsoft.AspNetCore.Identity.UserManager|User c84e9009-e9fa-45f7-b92c-e16ee1a31e31 password validation failed: PasswordRequiresNonAlphanumeric.
+2020-02-19 08:02:15.9788|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-19 08:02:16.1103|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-19 08:02:16.1392|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-19 08:02:16.1463|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-19 08:02:16.1463|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-19 08:02:16.1752|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-19 08:03:07.4845|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-19 08:03:07.6433|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-19 08:03:07.6665|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-19 08:03:07.6845|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-19 08:03:07.7109|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-19 08:03:07.7268|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-19 08:05:22.1340|WARN|Microsoft.AspNetCore.Identity.UserManager|User 7eb9474d-05e5-4c58-96f4-1343b1200a34 password validation failed: PasswordRequiresDigit.
+2020-02-19 08:10:49.6213|WARN|Microsoft.AspNetCore.Identity.UserManager|User 81886477-fb6a-4f12-85a7-94640de2992b password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.

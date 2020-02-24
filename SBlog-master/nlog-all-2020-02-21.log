@@ -1,0 +1,28 @@
+2020-02-21 00:04:44.3652|WARN|Microsoft.AspNetCore.Identity.UserManager|User 44985c7c-a2db-49eb-a22b-5faa3ce3b5b6 validation failed: DuplicateUserName.
+2020-02-21 00:08:04.5862|WARN|Microsoft.AspNetCore.Identity.UserManager|User 67a7ccf3-e814-4765-a202-3130445f8adf validation failed: DuplicateUserName.
+2020-02-21 07:52:15.9356|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTMI8PQNU5S", Request id "0HLTMI8PQNU5S:00000001": An unhandled exception was thrown by the application.
+2020-02-21 07:52:16.0362|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTMI8PQNU5R", Request id "0HLTMI8PQNU5R:00000001": An unhandled exception was thrown by the application.
+2020-02-21 07:56:45.3663|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-21 07:57:41.6971|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-21 07:57:42.1758|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-21 07:57:42.1940|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2020-02-21 07:59:22.2592|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-21 07:59:40.6941|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-21 07:59:41.2699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-21 07:59:41.2699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-21 07:59:41.2875|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2020-02-21 07:59:41.2875|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20200221055922_Extent_IdentityUser'.
+2020-02-21 07:59:41.3399|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD [City] nvarchar(max) NULL;
+2020-02-21 07:59:41.3399|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20200221055922_Extent_IdentityUser', N'2.2.6-servicing-10079');
