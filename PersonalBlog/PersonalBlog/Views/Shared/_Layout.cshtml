@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<AppUser> SignInManager
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -67,7 +69,10 @@
                                             <li><a asp-area="" asp-controller="Blog" asp-action="Blog">Blog</a></li>
                                             <li><a href="work.html">Work</a></li>
                                             <li><a href="contact.html">Contact</a></li>
-                                            <li><a asp-area="" asp-controller="Admin" asp-action="Admin">Admin Panel</a></li>
+                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Administrator") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
+                                            {
+                                                <li><a asp-area="" asp-controller="Admin" asp-action="Admin">Admin Panel</a></li>
+                                            }
                                         </ul>
                                     </div>
                                 </div>

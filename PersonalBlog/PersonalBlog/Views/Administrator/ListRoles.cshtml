@@ -8,29 +8,34 @@
         <h1>All Roles</h1>
         @if (Model.Any())
         {
+        <div class="sub-title">
             <a class="btn btn-primary mb-3" style="width:auto" asp-action="CreateRole"
                asp-controller="Administrator">Add new role</a>
+            <a class="btn btn-primary mb-3" style="width:auto" asp-action="Admin"
+               asp-controller="Admin">Back</a>
+        </div>
 
             foreach (var role in Model)
             {
-                <div class="card mb-3">
-                    <div class="card-header">
-                        Role Id : @role.Id
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">@role.Name</h5>
-                    </div>
-                    <div class="card-footer">
-                        <a asp-controller="Administrator" asp-action="EditRole"
-                           asp-route-id="@role.Id" class="btn btn-primary">
-                            Edit
-                        </a>
-                        <a asp-controller="Administrator" asp-action="DeleteRole"
-                           asp-route-id="@role.Id" class="btn btn-primary">
-                            Delete
-                        </a>
-                    </div>
+            <div class="card mb-3">
+
+                <div class="card-body">
+                    <h5 class="card-title">@role.Name</h5>
                 </div>
+                <div class="card-header">
+                    Role Id : @role.Id
+                </div>
+                <div class="card-footer">
+                    <a asp-controller="Administrator" asp-action="EditRole"
+                       asp-route-id="@role.Id" class="btn btn-primary">
+                        Edit
+                    </a>
+                    <a asp-controller="Administrator" asp-action="DeleteRole"
+                       asp-route-id="@role.Id" class="btn btn-primary">
+                        Delete
+                    </a>
+                </div>
+            </div>
             }
         }
         else
