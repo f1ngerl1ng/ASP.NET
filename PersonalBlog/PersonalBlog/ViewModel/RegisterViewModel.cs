@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -21,7 +22,9 @@ namespace PersonalBlog.ViewModel
         [Compare("Password",
             ErrorMessage = "Password and confirmation password do not match.")]
 
-        public string ConfirmPassword { get; set; }   
+        public string ConfirmPassword { get; set; }
+
+        public IFormFile img { get; set; }
 
     }
 }
