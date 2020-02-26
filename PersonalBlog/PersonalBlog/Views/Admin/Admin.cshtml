@@ -13,8 +13,15 @@
         </div>
         @if (SignInManager.IsSignedIn(User) && User.IsInRole("Administrator"))
         {
-            <div class="sub-title">
-                <a asp-controller="Administrator" asp-action="ListRoles" title="Role"><h2>Role</h2></a>
+            <div class="btn-group dropright">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Settings Users
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" asp-controller="Administrator" asp-action="ListRoles" title="Role">Role</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
             </div>
         }
         @if (SignInManager.IsSignedIn(User) && User.IsInRole("Moderator") || SignInManager.IsSignedIn(User) && User.IsInRole("Administrator"))

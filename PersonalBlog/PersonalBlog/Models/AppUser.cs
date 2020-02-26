@@ -10,6 +10,6 @@ namespace PersonalBlog.Models
     {
         public string City { get; set; }
 
-        public string img { get; set; }
+        //public string img { get; set; }
     }
 }
