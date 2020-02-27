@@ -30,6 +30,7 @@
 
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/DropDown.css">
 
     <!-- Google Web Fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
@@ -70,10 +71,6 @@
                                             <li><a asp-area="" asp-controller="Blog" asp-action="Blog">Blog</a></li>
                                             <li><a href="work.html">Work</a></li>
                                             <li><a href="contact.html">Contact</a></li>
-                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Administrator") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
-                                            {
-                                                <li><a asp-area="" asp-controller="Admin" asp-action="Admin">Admin Panel</a></li>
-                                            }
                                         </ul>
                                     </div>
                                 </div>
@@ -83,6 +80,28 @@
                                         <h1>Alex Parker</h1>
                                         <span>Web Developer</span>
                                         <h5> @User.Identity.Name</h5>
+                                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
+                                        {
+                                            <header id="header">
+                                                <nav class="dc-menu">
+                                                    <a href="#" class="dc-menu-trigger"><span>Menu</span></a>
+                                                    <div class="menu-overlay">
+                                                        <span class="TextMenu">Admin Panel</span>
+                                                        <ul>
+                                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                            {
+                                                                <li><a asp-controller="Administrator" asp-action="ListUsers">Users</a> </li>
+                                                                <li><a asp-controller="Administrator" asp-action="ListRoles" title="Roles">Roles</a></li>
+                                                            }
+                                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
+                                                            {
+                                                                <li><a asp-controller="Admin" asp-action="CreatePost" title="Create Post">Create Post</a></li>
+                                                            }
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                            </header>
+                                        }
                                         <form method="post" asp-controller="Account" asp-action="Logout">
                                             <span> <button type="submit" class="button button-style button-anim fa fa-long-arrow-right">Logout</button> </span>
                                         </form>
@@ -109,7 +128,6 @@
                                 </div>
                             }
                         }
-
                     </div>
                 </div>
                 <!-- About Me (Left Sidebar) End -->
@@ -175,6 +193,8 @@
 
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="~/js/scripts.js"></script>
+    <script type="text/javascript" src="~/js/site.js"></script>
+    <script type="text/javascript" src="~/js/DropDown.js"></script>
 
 </body>
 </html>

@@ -11,7 +11,7 @@
             <h2>My Admin Panel</h2>
             <a href="contact.html"><i class="icon-envelope"></i></a>
         </div>
-        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Administrator"))
+        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
         {
             <div class="btn-group dropright">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         }
-        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Moderator") || SignInManager.IsSignedIn(User) && User.IsInRole("Administrator"))
+        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Moderator") || SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
         {
             <div class="sub-title">
                 <a asp-controller="Admin" asp-action="CreatePost" title="Create Post"><h2>Create Post</h2></a>
