@@ -80,28 +80,28 @@
                                         <h1>Alex Parker</h1>
                                         <span>Web Developer</span>
                                         <h5> @User.Identity.Name</h5>
-                                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
-                                        {
+                                        @*@if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
+                                        {*@
                                             <header id="header">
                                                 <nav class="dc-menu">
                                                     <a href="#" class="dc-menu-trigger"><span>Menu</span></a>
                                                     <div class="menu-overlay">
                                                         <span class="TextMenu">Admin Panel</span>
                                                         <ul>
-                                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
-                                                            {
+                                                            @*@if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                                            {*@
                                                                 <li><a asp-controller="Administrator" asp-action="ListUsers">Users</a> </li>
                                                                 <li><a asp-controller="Administrator" asp-action="ListRoles" title="Roles">Roles</a></li>
-                                                            }
-                                                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
-                                                            {
+                                                            
+                                                            @*@if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin") || SignInManager.IsSignedIn(User) && User.IsInRole("Moderator"))
+                                                            {*@
                                                                 <li><a asp-controller="Admin" asp-action="CreatePost" title="Create Post">Create Post</a></li>
-                                                            }
+                                                            
                                                         </ul>
                                                     </div>
                                                 </nav>
                                             </header>
-                                        }
+                                        
                                         <form method="post" asp-controller="Account" asp-action="Logout">
                                             <span> <button type="submit" class="button button-style button-anim fa fa-long-arrow-right">Logout</button> </span>
                                         </form>
